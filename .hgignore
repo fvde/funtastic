@@ -1,3 +1,7 @@
 syntax: glob
 funtastic/funtastic.Windows/obj
 funtastic/funtastic.WindowsPhone/obj
+funtastic/funtastic.Windows/bin
+funtastic/funtastic.WindowsPhone/bin/x86
+packages
+*.suo
