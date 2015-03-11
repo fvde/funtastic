@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "funtastic", "funtastic", "{F6C0526E-9FE6-4B07-B340-243315E431F1}"
 EndProject
@@ -10,6 +10,13 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "funtastic.Shared", "funtastic\funtastic.Shared\funtastic.Shared.shproj", "{1BBA7382-395F-44D1-9431-813384EAB491}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "funtastic.WindowsPhone", "funtastic\funtastic.WindowsPhone\funtastic.WindowsPhone.csproj", "{BD50ECA0-7F46-41E1-A407-56821F327B5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{8C065231-69A3-4C32-82A9-EA12CBA2F094}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -31,12 +38,12 @@ Global
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|ARM.ActiveCfg = Debug|ARM
-		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|ARM.Build.0 = Debug|ARM
-		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|ARM.Deploy.0 = Debug|ARM
-		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x64.ActiveCfg = Debug|x64
-		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x64.Build.0 = Debug|x64
-		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x64.Deploy.0 = Debug|x64
+		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|ARM.ActiveCfg = Debug|x86
+		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|ARM.Build.0 = Debug|x86
+		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|ARM.Deploy.0 = Debug|x86
+		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x64.ActiveCfg = Debug|x86
+		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x64.Build.0 = Debug|x86
+		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x64.Deploy.0 = Debug|x86
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x86.ActiveCfg = Debug|x86
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x86.Build.0 = Debug|x86
 		{C8FCA4E8-5E5B-4B79-95A9-A74383823FEC}.Debug|x86.Deploy.0 = Debug|x86
@@ -58,7 +65,9 @@ Global
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|ARM.ActiveCfg = Debug|ARM
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|ARM.Build.0 = Debug|ARM
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|ARM.Deploy.0 = Debug|ARM
-		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x64.ActiveCfg = Debug|ARM
+		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x64.Build.0 = Debug|ARM
+		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x64.Deploy.0 = Debug|ARM
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x86.ActiveCfg = Debug|x86
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x86.Build.0 = Debug|x86
 		{BD50ECA0-7F46-41E1-A407-56821F327B5B}.Debug|x86.Deploy.0 = Debug|x86
